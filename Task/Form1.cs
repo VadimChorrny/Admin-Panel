@@ -20,13 +20,11 @@ namespace Task
         private void btnAdd_Click(object sender, EventArgs e)
         {
             AddProductWindow addProd = new AddProductWindow(this);
-            
             addProd.ShowDialog();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
 
         }
 

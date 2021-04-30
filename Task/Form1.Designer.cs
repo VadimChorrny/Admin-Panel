@@ -32,7 +32,7 @@ namespace Task
             this.lbProducts = new System.Windows.Forms.ListBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbTypeProduct = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbProducts
@@ -64,20 +64,20 @@ namespace Task
             this.btnEdit.Text = "Edit Product";
             this.btnEdit.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbTypeProduct
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(532, 13);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(256, 24);
-            this.comboBox1.TabIndex = 3;
+            this.cbTypeProduct.FormattingEnabled = true;
+            this.cbTypeProduct.Location = new System.Drawing.Point(532, 13);
+            this.cbTypeProduct.Name = "cbTypeProduct";
+            this.cbTypeProduct.Size = new System.Drawing.Size(256, 24);
+            this.cbTypeProduct.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbTypeProduct);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lbProducts);
@@ -90,8 +90,8 @@ namespace Task
         #endregion
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.ComboBox comboBox1;
         protected internal System.Windows.Forms.ListBox lbProducts;
+        protected internal System.Windows.Forms.ComboBox cbTypeProduct;
     }
 }
 

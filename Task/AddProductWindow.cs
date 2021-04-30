@@ -28,6 +28,7 @@ namespace Task
             Product product = new Product() 
             { Name = tbName.Text,Description = tbDescription.Text,Price = (int)nudPrice.Value};
             Parent.lbProducts.Items.Add(product);
+            Parent.cbTypeProduct.Items.Add(product.Name);
         }
         
 
