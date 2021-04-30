@@ -27,10 +27,5 @@ namespace Task
         {
 
         }
-
-        private void lbProducts_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

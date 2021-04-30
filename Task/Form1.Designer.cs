@@ -43,7 +43,6 @@ namespace Task
             this.lbProducts.Name = "lbProducts";
             this.lbProducts.Size = new System.Drawing.Size(514, 420);
             this.lbProducts.TabIndex = 0;
-            this.lbProducts.SelectedIndexChanged += new System.EventHandler(this.lbProducts_SelectedIndexChanged);
             // 
             // btnAdd
             // 
